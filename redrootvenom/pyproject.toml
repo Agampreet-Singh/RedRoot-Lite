@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redrootvenom"
+version = "1.0.0"
+description = "💉 RedRoot Venom Payload Generator (MSFvenom-style tool)"
+authors = [{ name = "Agampreet Singh" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=13.0.0"
+]
+
+[project.scripts]
+redrootvenom = "redrootvenom.__main__:main"
