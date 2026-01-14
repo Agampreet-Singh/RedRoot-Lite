@@ -78,6 +78,21 @@ This includes:
 
 ---
 
+## 🤖 AI Update — RedJarvis (Mark 47)
+
+Mark XLVII introduces **RedJarvis**, an integrated AI assistant that brings code-aware, interactive intelligence to RedRoot. This isn't just a scripted helper — it's an AI-powered assistant that understands natural language, reads codebase, and helps plan and run safe operations.
+
+### What RedJarvis does
+
+- **Repository Q&A (RAG):** indexes the codebase with embeddings + FAISS so can ask natural language questions about code and receive answers that cite file paths.
+- **Streaming Chat:** interactive, token-by-token responses in a Jarvis-like style (`RedJarvis: Sir, ...`) using local LLMs.
+- **Hybrid LLM Backends:** Ollama-first (local LLaMA models) with a Hugging Face transformers fallback.
+- **NL → Command:** converts plain English into concrete RedRoot commands (e.g., "scan 10.0.0.0/24 for ssh stealth" → `python -m redrootps --target 10.0.0.0/24 --service ssh --stealth`).
+- **Safe Execution:** runs only whitelisted commands, with two execution backends (local or Docker sandbox), timeouts, and daily audit logs.
+- **Introspection:** inspects modules and CLI entrypoints, extracts argparse patterns, lists functions and classes.
+- **Voice-ready:** architecture supports adding voice input/output so pcan later interact by speech.
+- **Developer-focused:** built as a code-aware assistant — helpful for debugging, planning attacks in lab environments, and documenting modules.
+
 ## 🖥️ Installation
 
 ```bash
