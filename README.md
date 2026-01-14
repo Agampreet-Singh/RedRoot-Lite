@@ -229,6 +229,8 @@ I'm not saying that the god of technology has taken human form for the first tim
 
 I'm just saying... **RedRoot Mark 85** will be close.
 
+> 👑 **IF YOU ARE NOTHING WITHOUT THE REDROOT THEN YOU SHOULDN'T HAVE IT**
+
 > 👑 **Prepare for the legend.**
 <p align="center">
   <img src="RedRoot.webp" alt="RedRoot Screenshot" width="600"/>
