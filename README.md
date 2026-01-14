@@ -1,151 +1,123 @@
-# 🔴 RedRoot-Lite – Mark X
-### Offensive Security Framework (CLI-Based)
+# 🔴 RedRoot Lite – Mark X  
+### Offensive Security Framework (Lite Edition | CLI-Based)
 
-![RedRoot Banner](RedRoot.webp)
+![RedRoot Lite Banner](RedRoot.webp)
 
-> *“Sometimes you gotta run before you can walk.”*
+> *“Less power. Same discipline.”*
 
-**RedRoot** is a modular, CLI-based offensive security framework written entirely in **Python**.  
-It brings together **15+ real-world red teaming tools** into one unified terminal environment.
+**RedRoot Lite** is the **restricted edition of RedRoot**, designed to provide core red teaming functionality while keeping advanced modules **locked**.
 
-No GUI. No noise. Just raw command-line power.
-
-Built for **penetration testers, red teamers, CTF players, and cybersecurity learners**.
+It uses the same architecture, same CLI style, and same mindset — but with **limited access**.
 
 ---
 
-## 🚨 What is RedRoot?
+## 🚨 What is RedRoot Lite?
 
-RedRoot is not a script dump.  
-RedRoot is not a wrapper.
+RedRoot Lite is a **lightweight, access-controlled version** of the RedRoot framework.
 
-It is a **full offensive security framework** covering:
+It is intended for:
+- Learning and practice  
+- CTF environments  
+- Safe lab usage  
+- Users who only need core modules  
 
-- Network reconnaissance & exploitation  
-- Web application attacks  
-- Active Directory attacks  
-- Wireless & proximity attacks  
-- Post-exploitation & persistence  
-- Social engineering  
-- AI-assisted operations  
-
-All controlled from a single CLI ecosystem.
+All non-essential and advanced payloads are **disabled**.
 
 ---
 
 ## ⚙️ Core Capabilities
 
-- Modular and extensible architecture  
-- Unified CLI workflow  
-- Linux & Windows support  
-- Designed for real-world labs and red team operations  
-- Mark-based evolution system  
+- CLI-based offensive framework  
+- Python-powered  
+- Minimal and fast  
+- Same structure as RedRoot (Full)  
+- Access-controlled module system  
 
 ---
 
-## 🧰 Total Red Team Packages (Mark X) - RedRoot Lite - Minimal Access only
+## 🧰 Module Access Map (Mark X)
 
-Below is the **complete RedRoot toolset**, mapped directly from the project directory.
+Below is the **module access list** for **RedRoot Lite – Mark X**.
 
-### 🔍 Reconnaissance & Enumeration
-- `redrootrecon` – Web & target reconnaissance  
-- `redrootfinger` – Service and user fingerprinting  
-- `redrootwp` – WordPress reconnaissance  
-- `redrootfuzz` – Parameter & endpoint fuzzing  
-- `redrootdir` – Directory brute forcing  
-- `redrootps` – Advanced port scanning  
+### 🔓 Accessible Modules
 
----
-
-### 🌐 Web Exploitation
-- `redrootsqli` – SQL Injection exploitation  
-- `redrootxss` – Cross-Site Scripting scanner  
-- `redrootlfi` – Local File Inclusion attacks  
-- `redrootexploit` – Exploit assistant  
+- `redrootbreaker` – **Access Granted**  
+- `redrootdir` – **Access Granted**  
+- `redrootexploit` – **Access Granted**  
+- `redrootfuzz` – **Access Granted**  
+- `redrootlistener` – **Access Granted**  
+- `redrootps` – **Access Granted**  
+- `redrootrecon` – **Access Granted**  
+- `redrootsniffer` – **Access Granted**  
+- `redrootsqli` – **Access Granted**  
+- `redrootvenom` – **Access Granted (Payloads Enabled)**  
 
 ---
 
-### 🧠 Active Directory & Network Attacks
-- `redrootldap` – LDAP enumeration  
-- `redrootasreproast` – AS-REP Roasting  
-- `redrootpoison` – LLMNR / NBT-NS poisoning  
-- `redrootbreaker` – Authentication & protocol abuse  
+### 🔒 Locked Modules
+
+All remaining RedRoot modules are **locked** in the Lite edition.
+
+This includes:
+- Privilege escalation modules  
+- Wireless attack modules  
+- Active Directory attack chains  
+- Backdoor creation  
+- Phishing toolkit  
+- RedJarvis AI assistant  
+- Advanced payload chains  
+
+> Locked modules are visible in the framework but **cannot be executed**.
 
 ---
 
-### 📡 Wireless & Proximity Attacks
-- `redrootevil` – Evil Twin rogue access point  
-- `redrootdeauth` – Wi-Fi deauthentication  
-- `redrootmitm` – Man-in-the-Middle attacks  
-- `redrootbluejack` – Bluetooth Bluejacking  
-- `redrootbluesnarf` – Bluetooth Bluesnarfing  
+## 🎯 Payload Access (Lite)
+
+- Standard payloads are **enabled**  
+- All predefined payloads can be used  
+- Advanced payload chaining is **locked**  
+- Persistence and stealth payloads are **locked**  
 
 ---
 
-### 🔓 Password, Payload & Traffic Attacks
-- `redrootvenom` – Payload generation framework  
-- `redrootsniffer` – Packet sniffing and capture  
-- `redrootdos` – Denial of Service testing  
-
----
-
-### 🧪 Post-Exploitation & Persistence
-- `redrootpriv-esc` – Privilege escalation (Mark XLV upgrade)  
-- `redrootlistener` – Reverse shell listener  
-- `RedRoot-Backdoor` – Windows/Linux backdoor creator  
-
----
-
-### 🎭 Social Engineering
-- `RedRoot-Phisher` – Phishing framework & launcher  
-
----
-
-## 🤖 AI Update — RedJarvis (Mark 47)
-
-Mark XLVII introduces **RedJarvis**, the AI core of RedRoot.
-
-RedJarvis is **code-aware**, not scripted.
-
-### RedJarvis Capabilities
-
-- Repository-aware Q&A using embeddings + FAISS  
-- Reads RedRoot modules and arguments  
-- Converts natural language into RedRoot commands  
-- Inspects argparse, functions, and class structures  
-- Real-time streaming responses  
-- Local LLM support (Ollama-first)  
-- Whitelisted execution with audit logging  
-- Docker sandbox execution  
-- Voice-ready architecture  
-
-## Example:
-'''text
-"Scan 10.0.0.0/24 for SSH stealthily"
-→ python -m redrootps --target 10.0.0.0/24 --service ssh --stealth
-
-### 🖥️ Demo
-
-[![RedRoot Demo](https://img.shields.io/badge/Watch-Demo-red)](https://youtu.be/XBSmylYZA8o?si=aRYhCRT5ZPqnUtYm)
-
-> *(Watch Full Demo)*
-
-## 📦 Installation
-
-### Requirements
-
-- Python 3.8+
-- Unix/Linux or Windows with terminal
-- `pip` (Python package manager)
-- Admin/root access for some modules
-
-### Install
+## 🖥️ Installation
 
 ```bash
 git clone https://github.com/Agampreet-Singh/RedRoot.git
 cd RedRoot
 python3 installer.py
 ```
+
+## 🧠 Why RedRoot Lite?
+
+RedRoot Lite exists to:
+
+- Teach fundamentals  
+- Encourage discipline  
+- Reduce misuse  
+- Provide a safe entry point  
+
+Same mindset.  
+Limited reach.
+
+---
+
+## ⚠️ Disclaimer
+
+RedRoot Lite is intended **only for educational and authorized testing purposes**.  
+Misuse is strictly prohibited.
+
+---
+
+## 📜 License
+
+MIT License
+See the `LICENSE` file for details.
+
+## 🔴 Final Note
+
+RedRoot Lite shows you the tools.  
+RedRoot Full shows you the war.
 
 ### 🧠 Final Thoughts 
 
@@ -172,9 +144,6 @@ So no, it's not just a suit of tools.
 
 ### Note
 Use this Tool for Educational purpose i am not responsible if you doing any against laws activities
-
-## License
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ## 🔮 What's Next?
 
