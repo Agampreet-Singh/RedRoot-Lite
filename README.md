@@ -93,6 +93,62 @@ Mark XLVII introduces **RedJarvis**, an integrated AI assistant that brings code
 - **Voice-ready:** architecture supports adding voice input/output so pcan later interact by speech.
 - **Developer-focused:** built as a code-aware assistant — helpful for debugging, planning attacks in lab environments, and documenting modules.
 
+## 🧰 Total Red Team Packages (Mark XLVII)
+
+Below is the **complete RedRoot toolset**, mapped directly from the project directory.
+
+### 🔍 Reconnaissance & Enumeration
+- `redrootrecon` – Web & target reconnaissance  
+- `redrootfinger` – Service and user fingerprinting  
+- `redrootwp` – WordPress reconnaissance  
+- `redrootfuzz` – Parameter & endpoint fuzzing  
+- `redrootdir` – Directory brute forcing  
+- `redrootps` – Advanced port scanning  
+
+---
+
+### 🌐 Web Exploitation
+- `redrootsqli` – SQL Injection exploitation  
+- `redrootxss` – Cross-Site Scripting scanner  
+- `redrootlfi` – Local File Inclusion attacks  
+- `redrootexploit` – Exploit assistant  
+
+---
+
+### 🧠 Active Directory & Network Attacks
+- `redrootldap` – LDAP enumeration  
+- `redrootasreproast` – AS-REP Roasting  
+- `redrootpoison` – LLMNR / NBT-NS poisoning  
+- `redrootbreaker` – Authentication & protocol abuse  
+
+---
+
+### 📡 Wireless & Proximity Attacks
+- `redrootevil` – Evil Twin rogue access point  
+- `redrootdeauth` – Wi-Fi deauthentication  
+- `redrootmitm` – Man-in-the-Middle attacks  
+- `redrootbluejack` – Bluetooth Bluejacking  
+- `redrootbluesnarf` – Bluetooth Bluesnarfing  
+
+---
+
+### 🔓 Password, Payload & Traffic Attacks
+- `redrootvenom` – Payload generation framework  
+- `redrootsniffer` – Packet sniffing and capture  
+- `redrootdos` – Denial of Service testing  
+
+---
+
+### 🧪 Post-Exploitation & Persistence
+- `redrootpriv-esc` – Privilege escalation (Mark XLV upgrade)  
+- `redrootlistener` – Reverse shell listener  
+- `RedRoot-Backdoor` – Windows/Linux backdoor creator  
+
+---
+
+### 🎭 Social Engineering
+- `RedRoot-Phisher` – Phishing framework & launcher  
+
 ## 🖥️ Installation
 
 ```bash
