@@ -1,8 +1,6 @@
 # 🔴 RedRoot Lite – Mark X  
 ### Offensive Security Framework (Lite Edition | CLI-Based)
 
-![RedRoot Lite Banner](RedRoot.webp)
-
 > *“Less power. Same discipline.”*
 
 **RedRoot Lite** is the **restricted edition of RedRoot**, designed to provide core red teaming functionality while keeping advanced modules **locked**.
