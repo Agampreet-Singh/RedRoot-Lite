@@ -119,12 +119,12 @@ RedJarvis is **code-aware**, not scripted.
 - Docker sandbox execution  
 - Voice-ready architecture  
 
-Example:
-```text
+## Example:
+'''text
 "Scan 10.0.0.0/24 for SSH stealthily"
 → python -m redrootps --target 10.0.0.0/24 --service ssh --stealth
 
-## 🖥️ Demo
+### 🖥️ Demo
 
 [![RedRoot Demo](https://img.shields.io/badge/Watch-Demo-red)](https://youtu.be/XBSmylYZA8o?si=aRYhCRT5ZPqnUtYm)
 
