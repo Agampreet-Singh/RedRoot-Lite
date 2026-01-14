@@ -1,0 +1,9 @@
+[project]
+name = "redrootlfi"
+version = "1.0.0"
+description = "RedRoot LFI Scanner Module"
+authors = [{name="Agampreet"}]
+dependencies = ["requests"]
+
+[project.scripts]
+redrootlfi = "redrootlfi.cli:main"
