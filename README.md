@@ -1,4 +1,4 @@
-# 🔴 RedRoot – Mark XLVII  
+# 🔴 RedRoot-Lite – Mark X
 ### Offensive Security Framework (CLI-Based)
 
 ![RedRoot Banner](RedRoot.webp)
@@ -43,7 +43,7 @@ All controlled from a single CLI ecosystem.
 
 ---
 
-## 🧰 Total Red Team Packages (Mark XLVII)
+## 🧰 Total Red Team Packages (Mark X) - RedRoot Lite - Minimal Access only
 
 Below is the **complete RedRoot toolset**, mapped directly from the project directory.
 
