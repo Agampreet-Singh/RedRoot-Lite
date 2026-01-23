@@ -78,7 +78,7 @@ This includes:
 
 ---
 
-## 🤖 AI Update — RedJarvis (Mark 47)
+## 🤖 AI Update — RedJarvis (Mark 50)
 
 Mark XLVII introduces **RedJarvis**, an integrated AI assistant that brings code-aware, interactive intelligence to RedRoot. This isn't just a scripted helper — it's an AI-powered assistant that understands natural language, reads codebase, and helps plan and run safe operations.
 
@@ -93,7 +93,7 @@ Mark XLVII introduces **RedJarvis**, an integrated AI assistant that brings code
 - **Voice-ready:** architecture supports adding voice input/output so pcan later interact by speech.
 - **Developer-focused:** built as a code-aware assistant — helpful for debugging, planning attacks in lab environments, and documenting modules.
 
-## 🧰 Total Red Team Packages (Mark XLVII)
+## 🧰 Total Red Team Packages (Mark 50)
 
 Below is the **complete RedRoot toolset**, mapped directly from the project directory.
 
