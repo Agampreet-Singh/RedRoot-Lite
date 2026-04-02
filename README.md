@@ -7,6 +7,11 @@
 
 It uses the same architecture, same CLI style, and same mindset — but with **limited access**.
 
+### NOTE:-
+RedRoot is a Python-based, CLI-driven offensive security framework that brings essential red teaming tools into one unified terminal environment. Built for penetration testers, red teamers, CTF players, and cybersecurity learners, it focuses on real-world workflows without relying on a GUI.
+
+Often, while working on a task or using a specific tool, users face limitations because they are restricted to a **lite version that doesn’t unlock the tool’s full potential.** RedRoot aims to bridge that gap by providing a more complete and practical toolkit, allowing users to perform tasks more efficiently without being held back by feature restrictions.
+
 ---
 
 ## 🚨 What is RedRoot Lite?
