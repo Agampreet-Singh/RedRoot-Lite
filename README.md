@@ -106,6 +106,7 @@ Below is the **complete RedRoot toolset**, mapped directly from the project dire
 * `redrootfuzz` – Parameter & endpoint fuzzing
 * `redrootdir` – Directory brute forcing
 * `redrootps` – Advanced port scanning
+* `redrootphoneosint` – Phone Number Information Gathering Like Home Address, ID Cards, Connected No. and more.
 
 ---
 
@@ -151,6 +152,7 @@ Below is the **complete RedRoot toolset**, mapped directly from the project dire
 * `redrootlistener` – Reverse shell listener
 * `RedRoot-Backdoor` – Windows/Linux backdoor creator
 * `redroottunnel` – TCP / UDP tunneling & pivoting
+* `redroothost` – Private HTTP SERVER TO PUBLIC
 * `redrootdrive` – Data transfer & exfiltration utility
 * `redrootlog` – Evidence and artifact collection
 * `redrootsteg` – Steganography for payload & data hiding
