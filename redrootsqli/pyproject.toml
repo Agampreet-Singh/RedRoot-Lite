@@ -1,0 +1,11 @@
+[project]
+name = "redrootsqli"
+version = "1.0.0"
+dependencies = ["typer"]
+
+[project.scripts]
+redrootsqli = "redrootsqli.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["redrootsqli*"]
