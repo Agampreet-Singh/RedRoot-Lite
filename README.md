@@ -236,6 +236,9 @@ So no, it's not just a suit of tools.
 ### Note
 Use this Tool for Educational purpose i am not responsible if you doing any against laws activities
 
+## Want full version of RedRoot?
+Well you can forget it, I am RedRoot, the tool and I are one, to turn over the tool would be to turn over myself …. And if I do this, then I am your servent or your weapon, so, what you’re looking for sir you cannot get it.
+
 ## 🔮 What's Next?
 
 Mark XLVII is here... but this isn't the end.
@@ -251,7 +254,7 @@ I'm not saying that the god of technology has taken human form for the first tim
 
 I'm just saying... **RedRoot Mark 85** will be close.
 
-> 👑 **IF YOU ARE NOTHING WITHOUT THE REDROOT THEN YOU SHOULDN'T HAVE IT**
+**IF YOU ARE NOTHING WITHOUT THE REDROOT THEN YOU SHOULDN'T HAVE IT**
 
 > 👑 **Prepare for the legend.**
 <p align="center">
