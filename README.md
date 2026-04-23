@@ -82,8 +82,8 @@ This includes:
 - Persistence and stealth payloads are **locked**  
 
 ---
-
-# ![F.R.I.D.A.Y](friday.jpg) AI Update — F.R.I.D.A.Y (Advanced AI Core of RedRoot)
+# AI Update — F.R.I.D.A.Y (Advanced AI Core of RedRoot)
+# ![F.R.I.D.A.Y](AI-friday.png) 
 
 **F.R.I.D.A.Y**, the intelligent AI core powering RedRoot.
 
