@@ -83,25 +83,36 @@ This includes:
 
 ---
 
-## 🤖 AI Update — RedJarvis (Mark 50)
+# 🤖 AI Update — F.R.I.D.A.Y (Advanced AI Core of RedRoot)
 
-Mark XLVII introduces **RedJarvis**, an integrated AI assistant that brings code-aware, interactive intelligence to RedRoot. This isn't just a scripted helper — it's an AI-powered assistant that understands natural language, reads codebase, and helps plan and run safe operations.
+**F.R.I.D.A.Y**, the intelligent AI core powering RedRoot.
 
-### What RedJarvis does
+F.R.I.D.A.Y is not a scripted assistant — it is a **code-aware, context-driven AI system** designed specifically for offensive security workflows.
 
-- **Repository Q&A (RAG):** indexes the codebase with embeddings + FAISS so can ask natural language questions about code and receive answers that cite file paths.
-- **Streaming Chat:** interactive, token-by-token responses in a Jarvis-like style (`RedJarvis: Sir, ...`) using local LLMs.
-- **Hybrid LLM Backends:** Ollama-first (local LLaMA models) with a Hugging Face transformers fallback.
-- **NL → Command:** converts plain English into concrete RedRoot commands (e.g., "scan 10.0.0.0/24 for ssh stealth" → `python -m redrootps --target 10.0.0.0/24 --service ssh --stealth`).
-- **Safe Execution:** runs only whitelisted commands, with two execution backends (local or Docker sandbox), timeouts, and daily audit logs.
-- **Introspection:** inspects modules and CLI entrypoints, extracts argparse patterns, lists functions and classes.
-- **Voice-ready:** architecture supports adding voice input/output so pcan later interact by speech.
-- **Developer-focused:** built as a code-aware assistant — helpful for debugging, planning attacks in lab environments, and documenting modules.
+---
+
+## ⚡ Core Intelligence
+
+F.R.I.D.A.Y understands your toolchain, not just your prompt. basically its your offensive security partner with RedRoot Tool
+
+It analyzes:
+- Module logic  
+- Input/output behavior  
+- Execution flow  
+- Attack surface context  
+
+Then provides:
+- Tactical explanations  
+- Smart next-step recommendations  
+- RedRoot-only workflow guidance  
+
+---
 
 ## 🧰 Total Red Team Packages (Mark 50)
 
 Below is the **complete RedRoot toolset**, mapped directly from the project directory.
 
+---
 
 ### 🔍 Reconnaissance & Enumeration
 
@@ -121,6 +132,7 @@ Below is the **complete RedRoot toolset**, mapped directly from the project dire
 * `redrootxss` – Cross-Site Scripting scanner
 * `redrootlfi` – Local File Inclusion attacks
 * `redrootexploit` – Exploit assistance framework
+* `redrootssrf` – Server Side request forgery
 
 ---
 
@@ -160,13 +172,15 @@ Below is the **complete RedRoot toolset**, mapped directly from the project dire
 * `redroothost` – Private HTTP SERVER TO PUBLIC
 * `redrootdrive` – Data transfer & exfiltration utility
 * `redrootlog` – Evidence and artifact collection
-* `redrootsteg` – Steganography for payload & data hiding
+* `redrootsteg` – Steganography for payload & data hiding 
+* `redrootwin` – Windows Remote Shell Login
 
 ---
 
 ### 🎭 Social Engineering
 
 * `RedRoot-Phisher` – Phishing framework & launcher
+
 
 ---
 
