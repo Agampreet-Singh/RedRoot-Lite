@@ -83,7 +83,7 @@ This includes:
 
 ---
 
-# 🤖 AI Update — F.R.I.D.A.Y (Advanced AI Core of RedRoot)
+# ![F.R.I.D.A.Y](friday.jpg) AI Update — F.R.I.D.A.Y (Advanced AI Core of RedRoot)
 
 **F.R.I.D.A.Y**, the intelligent AI core powering RedRoot.
 
